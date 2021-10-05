@@ -69,10 +69,33 @@ hr {
   border: 0; /* border */
 }
 
-/* a Tag */
+/* Default */
 a {
-  color: #fff; /* text color */
+  color: lightblue;
 }
+
+/* CSS Link Pseudo-classes - START HERE */
+/* Unvisited links */
+a:link {
+  color: lightblue;
+}
+/* Visited links */
+a:visited {
+  color: purple;
+}
+/* Hover state */
+a:hover {
+  color: red;
+}
+/* Focused state */
+a:focus {
+  color: orange;
+}
+/* Activated state */
+a:active {
+  color: green;
+}
+/* CSS Link Pseudo-classes - END HERE */
 
 /* ul - unordered list tag */
 ul {
