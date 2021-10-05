@@ -76,9 +76,13 @@ a {
 
 /* ul - unordered list tag */
 ul {
-  list-style-type: none; /* Remove default bullets */
-  margin: 0px; /* Add left margin to each list item */
+  list-style-type: none; /* list style type */
+  margin: 40px; /* top right bottom left */
   padding: 0; /* Remove padding */
+}
+
+ul p {
+  color: rgb(186, 191, 240);
 }
 
 /* ol - ordered list tag */
