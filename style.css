@@ -1,118 +1,154 @@
+/* html, body - styles */
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   margin: 0;
+  padding: 0;
   background-color: #14213d;
 }
 
+/* Header */
 header {
-  padding: 50px 0 50px 0;
-  width: 100%;
+  padding: 25px 0 10px 0; /* top right bottom left */
+  width: 100%; /* width */
 }
 
+/* Main */
+main {
+  padding: 0; /* top right bottom left */
+  width: 100%; /* width of the main content */
+}
+
+/* Footer */
 body {
-  position: relative;
-  width: 100%; /* for IE 6 */
-  height: auto;
+  position: relative; /* for footer */
+  width: 100%; /* width of the main content */
+  height: auto; /* height of the main content */
 }
 
+/* Image */
 img {
-  width: 420px;
+  width: 420px; /* width of the image */
+  height: auto; /* height of the image */
 }
 
+/* h1 Text */
 h1 {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: bold;
+  font-size: 2rem; /* font size */
+  color: #fff; /* color */
+  font-weight: bold; /* font weight */
 }
 
+/* h2 Text */
 h2 {
-  font-size: 1.5rem;
-  color: #fff;
-  font-weight: bold;
+  font-size: 1.5rem; /* font size */
+  color: #fff; /* color */
+  font-weight: bold; /* font weight */
 }
 
+/* h3 Text */
 h3 {
-  font-size: 1.3rem;
-  color: #64ffda;
-  font-weight: bold;
-  margin: 0 0 0 0;
+  font-size: 1.3rem; /* font size */
+  color: #64ffda; /* color */
+  font-weight: bold; /* font weight */
+  margin: 0 0 0 0; /* top right bottom left */
 }
 
+/* p Text */
 p {
-  font-size: 1.1rem;
-  color: #fff;
-  margin: 10 0 30 0;
+  font-size: 1.1rem; /* 1.1rem */
+  color: #fff; /* color */
+  margin: 10px 0 30px 0; /* 10px 0 30px 0 */
 }
 
+/* hr - horizontal rule */
 hr {
-  background-color: red;
-  height: 1px;
-  border: 0;
+  background-color: red; /* background color */
+  height: 1px; /* height */
+  border: 0; /* border */
 }
 
+/* a Tag */
 a {
-  color: #fff;
+  color: #fff; /* text color */
 }
 
+/* ul - unordered list tag */
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none; /* Remove default bullets */
+  margin: 0px; /* Add left margin to each list item */
+  padding: 0; /* Remove padding */
 }
 
+/* ol - ordered list tag */
 ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none; /* Remove default bullets */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
 }
 
-i {
-  color: white;
-}
-
+/* li - list item tag */
 li {
-  display: inline-block;
-  margin: 0 10px 0 0;
+  display: inline-block; /* Add horizontal spacing between list items */
+  margin: 0 10px 0 0; /* Add left margin to each list item */
+  padding: 0; /* Remove padding */
 }
 
+/* font awesome icon */
+i {
+  color: white; /* Change the color of the icon */
+  font-size: 1.5rem; /* Change the size of the icon */
+}
+
+/* row style */
 .row {
-  display: flex;
-  margin: 30px 0 30px 0;
+  display: flex; /* Flexbox */
+  margin: 30px 0 30px 0; /* Add top margin to each row */
 }
 
+/* column style - Grid */
 .column {
-  flex: 50%;
+  flex: 50%; /* 50% of container width */
 }
 
+/* container */
 .container {
-  width: 900px;
-  margin: 0 auto;
+  width: 900px; /* width of container */
+  margin: 0 auto; /* center container */
 }
 
+/* center */
 .center {
-  text-align: center;
+  text-align: center; /* center text */
 }
 
+/* SKH text gradient style */
 .skh {
-  font-size: 10rem;
-  background: -webkit-linear-gradient(#eee, #64ffda);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  margin: 20px 0 0 0;
+  font-size: 10rem; /* Change the size of the text */
+  background: -webkit-linear-gradient(
+    #eee,
+    #64ffda
+  ); /* For Safari 5.1 to 6.0 */
+  -webkit-background-clip: text; /* For Safari 5.1 to 6.0 */
+  -webkit-text-fill-color: transparent; /* For Safari 5.1 to 6.0 */
+  font-weight: bold; /* Change the weight of the text */
+  margin: 20px 0 0 0; /* Add top and bottom margin to the text */
 }
 
+/* margin top */
 .margin-top {
-  margin-top: -20px;
+  margin-top: -20px; /* Add top margin */
 }
 
+/* google map style */
 .map {
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 0; /* Add top margin */
 }
 
+/* footer */
 footer {
-  padding: 50px 0 50px 0;
-  width: 100%;
-  margin: 0 auto;
+  padding: 50px 0 50px 0; /* Add top and bottom padding */
+  width: 100%; /* width */
+  margin: 0 auto; /* center container */
 }
